@@ -48,9 +48,9 @@
             @apply m-4 text-6xl font-medium tracking-wider text-accent;
         }
         form {
-            @apply flex focus-within:ring-8 focus-within:ring-accent focus-within:rounded-md;
+            @apply flex focus-within:ring-8 focus-within:ring-greenish focus-within:rounded-md;
             input {
-                @apply bg-white text-comment p-2 w-80 text-xl rounded-l-md outline-none;
+                @apply bg-white text-background p-2 w-80 text-xl rounded-l-md outline-none;
             }
            button {
             @apply bg-accent text-background p-2 text-xl font-bold rounded-r-md;
@@ -60,11 +60,11 @@
            }
         }
         ul {
-            @apply flex flex-col items-center justify-center rounded-lg bg-comment;
+            @apply flex flex-col items-center justify-center rounded-lg bg-foreground;
             li {
-                @apply bg-white text-background m-2 p-2 w-80 text-center;
+                @apply bg-white text-background m-1.5 p-2 w-80 text-center;
                 &:hover {
-                    @apply bg-greenish font-bold cursor-pointer;
+                    @apply bg-comment font-bold cursor-pointer;
                 }
             }
         }
